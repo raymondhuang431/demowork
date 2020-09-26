@@ -1,3 +1,11 @@
-.p {
-    color: beige;
+.row {
+    display: flex;
+    flex: wrap;
+}
+
+.banner {
+    background-image: url(/image/index/photo-1588159343745-445ae0b16383.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 870px;
 }

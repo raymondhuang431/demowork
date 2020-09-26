@@ -10384,20 +10384,4 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
-
-.row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: wrap;
-      -ms-flex: wrap;
-          flex: wrap;
-}
-
-.banner {
-  background-image: url(/image/index/photo-1588159343745-445ae0b16383.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 870px;
-}
-/*# sourceMappingURL=all.css.map */
+/*# sourceMappingURL=bootstrap.css.map */
