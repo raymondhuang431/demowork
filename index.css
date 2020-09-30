@@ -1,33 +1,84 @@
-.row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: wrap;
-      -ms-flex: wrap;
-          flex: wrap;
+.header {
+  width: 1920px;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .banner {
-  background: url(image/index/photo-1588159343745-445ae0b16383.png);
+  background: transparent url(image/index/photo-1588159343745-445ae0b16383.png);
   background-repeat: no-repeat;
+  margin-top: 56px;
   background-position: center;
   height: 870px;
+  top: 56px;
+  opacity: 1;
 }
 
-.justify-content-end {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -ms-flex-line-pack: end;
-      align-content: flex-end;
+.banner-context {
+  text-align: left;
+  font: normal normal normal 24px/36px SF Pro Text;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.row1 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.row3 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
 
 .product1 {
   background: url(/image/product/photo-1563170351-be82bc888aa4.png);
+  height: 555px;
+  width: 555px;
+}
+
+.product-text {
+  text-align: left;
+  font: normal normal 300 20px/30px PingFang TC;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.card-deck {
+  background: #E0E0E0 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.card {
+  background: #E0E0E0 0% 0% no-repeat padding-box;
+  opacity: 1;
 }
 
 .footer-subscribe {
   background: url(image/product/photo-1532413992378-f169ac26fff0.png);
   height: 600px;
+  max-width: 1920px;
+}
+
+.bg-primary {
+  background-color: #916000 !important;
 }
 /*# sourceMappingURL=index.css.map */
