@@ -10678,6 +10678,14 @@ a.text-dark:focus {
     }
 }
 
+.shop-button {
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    opacity: 1;
+    width: 350px;
+    height: 60px;
+}
+
 .banner {
     background: transparent url(image/index/photo-1588159343745-445ae0b16383.png);
     background-repeat: no-repeat;
@@ -10708,12 +10716,34 @@ a.text-dark:focus {
     max-width: 350px;
 }
 
-.card {
-    border: 0
+.product-list {
+    background: #E0E0E0 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+
+.card-body {
+    padding: 0em;
+    margin-top: 40px;
 }
 
 .footer {
     margin-top: 60px;
+}
+
+.form-control {
+    height: auto;
+}
+
+.input-group {
+    height: auto;
+    border: 2px solid #916000;
+}
+
+.btn-primary {
+    border-color: #916000;
+    background-color: #916000;
 }
 
 .footer-subscribe {
@@ -10724,6 +10754,14 @@ a.text-dark:focus {
 
 .footer-info {
     list-style: none
+}
+
+.footer-text {
+    text-align: left;
+    font: normal normal normal 20px/30px SF Pro Text;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
 }
 
 .bg-primary {

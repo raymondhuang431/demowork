@@ -46,7 +46,7 @@
                     <h2>Perfume your day</h2>
                     <p>A perfume is like a piece of clothing, a message, a way of presenting oneself a costume that according to the person who wears it.</p>
                     <a href="#">
-                        <button type="button" class="btn btn-outline-white">Shop now</button>
+                        <button type="button" class="btn shop-button banner-context  d-flex justify-content-center">Shop now</button>
                     </a>
                 </div>
             </div>
@@ -109,10 +109,10 @@
         </div>
     </div>
     </div>
-    <div class="container-fluid bg-gray ">
+    <div class="container-fluid product-list ">
         <div class="container">
             <div class="row ">
-                <div class="card col-12 col-md-4">
+                <div class=" col-12 col-md-4">
                     <div class="card-body ">
                         <img src="image/product/photo-1530630458144-014709e10016.png" alt="">
                     </div>
@@ -125,7 +125,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card col-12 col-md-4">
+                <div class=" col-12 col-md-4 d-flex-column">
                     <div class="card-body">
                         <img src="image/product/photo-1556228720-da4e85f25e15.png" alt="">
                     </div>
@@ -137,7 +137,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card col-12 col-md-4">
+                <div class=" col-12 col-md-4">
                     <div class="card-body">
                         <img src="image/product/photo-1559264730-1533a6ec0433.png" alt="">
                     </div>
@@ -169,33 +169,36 @@
         </div>
     </div>
     <div class="footer ">
-        <div class="container-fluid footer-subscribe">
+        <div class="container-fluid footer-subscribe d-flex align-items-center">
             <div class="container">
                 <div class="row subscribe ">
                     <div class="col-12 col-md-4 ">
                         <div>
                             <h3>
-                                記得<br>訂閱已獲得更多資訊！
+                                記得<br>訂閱以獲得更多資訊！
                             </h3>
-                            <div class="input-email">
-                                <input type="button" value="">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Your email address" aria-label="emailAddress" aria-describedby="button-addon">
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary px-4 py-3" type="button" id="button-addon">Subscribe</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container-fluid bg-primary">
-            <div class="container">
-                <div class="row ">
-                    <div class="col-12 col-md-6 d-flex align-items-center ">
+        <div class="container-fluid bg-primary ">
+            <div class="container ">
+                <div class="row footer-text">
+                    <div class="col-12 col-md-6 d-flex ">
                         <div>
                             <a href="index.html">
                                 <img src="image/layout/d’Perfumew.png" alt="footer-logo">
                             </a>
                         </div>
-                        <div>
-                            <p>© 2020. All Rights Reserved.</p>
+                        <div class="d-flex align-items-center">
+                            <small>© 2020. All Rights Reserved.</small>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 d-flex justify-content-lg-end">
@@ -207,6 +210,7 @@
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 </body>

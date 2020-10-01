@@ -38,8 +38,6 @@
 
 .product1 {
     background: url(/image/product/photo-1563170351-be82bc888aa4.png);
-    height: 555px;
-    width: 555px;
 }
 
 .product-text {
@@ -52,14 +50,8 @@
     justify-content: flex-start;
 }
 
-.card-deck {
-    background: #E0E0E0 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-
-.card {
-    background: #E0E0E0 0% 0% no-repeat padding-box;
-    opacity: 1;
+.card-body {
+    padding-left: 0;
 }
 
 .footer-subscribe {
