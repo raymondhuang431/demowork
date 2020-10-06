@@ -10681,3 +10681,20 @@ a.text-dark:focus {
 img {
     max-width: 100%;
 }
+
+.footer-info {
+    display: inline;
+    list-style: none;
+}
+
+.footer-text {
+    text-align: left;
+    font: normal normal normal 20px/30px SF Pro Text;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.bg-primary {
+    background-color: #916000 !important;
+}
