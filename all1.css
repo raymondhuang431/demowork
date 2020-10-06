@@ -10758,7 +10758,8 @@ img {
 }
 
 .footer-info {
-    list-style: none
+    display: inline;
+    list-style: none;
 }
 
 .footer-text {

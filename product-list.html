@@ -6,36 +6,41 @@
     <meta name="產品頁" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="product-list.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="container">
-        <div class="row d-flex justify-content-between ">
-            <div class="header-logo d-flex align-items-center ">
-                <a href="index.html"><img src="image/layout/d’Perfume.png" alt=""></a>
-            </div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light row ">
+            <div class="col-12 col-lg-7 row d-flex justify-content-around">
+                <div>
+                    <a href="index.html"><img src="image/layout/d’Perfume.png" alt=""></a>
+                </div>
+                <div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="product.html"><img src="image/layout/tshirt.png" alt="">Prodcut<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><img src="image/layout/user-alt.png" alt="">log in</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#"><img src="image/layout/heart.png" alt="">Wishlist</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#"><img src="image/layout/shopping-cart.png" alt="">Chart(3)</a>
-                        </li>
-                    </ul>
                 </div>
-            </nav>
-        </div>
+            </div>
+            <div class="collapse navbar-collapse col-12 col-lg-5" id="navbarTogglerDemo01">
+                <ul class="navbar-nav mr-sm-0 mt-2 mt-lg-0  ">
+                    <li class="nav-item active text-center">
+                        <a class="nav-link" href="product-list.html"><img src="image/layout/tshirt.png" alt="">Prodcut<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link" href="log-in.html"><img src="image/layout/user-alt.png" alt="">log in</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link disabled" href="#"><img src="image/layout/heart.png" alt="">Wishlist</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link disabled" href="#"><img src="image/layout/shopping-cart.png" alt="">Chart(3)</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </div>
     <div class="container-fluid nav-list">
         <div class="container ">
@@ -65,7 +70,7 @@
                 </div>
             </li>
             <li class="col-6 col-md-3 mb-3">
-                <a href=""><img src="image/product-list/photo-1566977776052-6e61e35bf9be.png" alt=""></a>
+                <a href="product-content.html"><img src="image/product-list/photo-1566977776052-6e61e35bf9be.png" alt=""></a>
                 <h2>Poppy&Barley</h2>
                 <small>Jo Malone</small><br>
                 <div class="price">
@@ -78,7 +83,7 @@
                 </div>
             </li>
             <li class="col-6 col-md-3 mb-3">
-                <a href=""><img src="image/product-list/photo-1578996834254-13d1b661a5ed.png" alt=""></a>
+                <a href="product-content.html"><img src="image/product-list/photo-1578996834254-13d1b661a5ed.png" alt=""></a>
                 <h2>Poppy&Barley</h2>
                 <small>Jo Malone</small><br>
                 <div class="price">
@@ -91,7 +96,7 @@
                 </div>
             </li>
             <li class="col-6 col-md-3 mb-3">
-                <a href=""><img src="image/product-list/photo-1582211594533-268f4f1edcb9.png" alt=""></a>
+                <a href="product-content.html"><img src="image/product-list/photo-1582211594533-268f4f1edcb9.png" alt=""></a>
                 <h2>Poppy&Barley</h2>
                 <small>Jo Malone</small><br>
                 <div class="price">
@@ -104,7 +109,7 @@
                 </div>
             </li>
             <li class="col-6 col-md-3 mb-3">
-                <a href=""><img src="image/product-list/photo-1584435731369-1e74c4e9385e.png" alt=""></a>
+                <a href="product-content.html"><img src="image/product-list/photo-1584435731369-1e74c4e9385e.png" alt=""></a>
                 <h2>Poppy&Barley</h2>
                 <small>Jo Malone</small><br>
                 <div class="price">
@@ -117,7 +122,7 @@
                 </div>
             </li>
             <li class="col-6 col-md-3 mb-3">
-                <a href=""><img src="image/product-list/photo-1585120040315-2241b774ad0f.png" alt=""></a>
+                <a href="product-content.html"><img src="image/product-list/photo-1585120040315-2241b774ad0f.png" alt=""></a>
                 <h2>Poppy&Barley</h2>
                 <small>Jo Malone</small><br>
                 <div class="price">
@@ -130,7 +135,7 @@
                 </div>
             </li>
             <li class="col-6 col-md-3 mb-3">
-                <a href=""><img src="image/product-list/photo-1592247691114-69a06342531a.png" alt=""></a>
+                <a href="product-content.html"><img src="image/product-list/photo-1592247691114-69a06342531a.png" alt=""></a>
                 <h2>Poppy&Barley</h2>
                 <small>Jo Malone</small><br>
                 <div class="price">
@@ -143,7 +148,7 @@
                 </div>
             </li>
             <li class="col-6 col-md-3 mb-3">
-                <a href=""><img src="image/product-list/photo-1592842414746-a2fd2101381f.png" alt=""></a>
+                <a href="product-content.html"><img src="image/product-list/photo-1592842414746-a2fd2101381f.png" alt=""></a>
                 <h2>Poppy&Barley</h2>
                 <small>Jo Malone</small><br>
                 <div class="price">
@@ -156,7 +161,7 @@
                 </div>
             </li>
             <li class="col-6 col-md-3 mb-3">
-                <a href=""><img src="image/product-list/photo-1594913366159-1832cfbe7ca1.png" alt=""></a>
+                <a href="product-content.html"><img src="image/product-list/photo-1594913366159-1832cfbe7ca1.png" alt=""></a>
                 <h2>Poppy&Barley</h2>
                 <small>Jo Malone</small><br>
                 <div class="price">
@@ -169,7 +174,7 @@
                 </div>
             </li>
             <li class="col-6 col-md-3 mb-3">
-                <a href=""><img src="image/product-list/photo-1530630458144-014709e10016.png" alt=""></a>
+                <a href="product-content.html"><img src="image/product-list/photo-1530630458144-014709e10016.png" alt=""></a>
                 <h2>Poppy&Barley</h2>
                 <small>Jo Malone</small><br>
                 <div class="price">
@@ -182,7 +187,7 @@
                 </div>
             </li>
             <li class="col-6 col-md-3 mb-3">
-                <a href=""><img src="image/product-list/photo-1544468266-6a8948003cd7.png" alt=""></a>
+                <a href="product-content.html"><img src="image/product-list/photo-1544468266-6a8948003cd7.png" alt=""></a>
                 <h2>Poppy&Barley</h2>
                 <small>Jo Malone</small><br>
                 <div class="price">
@@ -195,7 +200,7 @@
                 </div>
             </li>
             <li class="col-6 col-md-3 mb-3">
-                <a href=""><img src="image/product-list/photo-1559264729-91549dddfc45.png" alt=""></a>
+                <a href="product-content.html"><img src="image/product-list/photo-1559264729-91549dddfc45.png" alt=""></a>
                 <h2>Poppy&Barley</h2>
                 <small>Jo Malone</small><br>
                 <div class="price">
@@ -238,20 +243,19 @@
                                 <img src="image/layout/d’Perfumew.png" alt="footer-logo">
                             </a>
                         </div>
-                        <div class="d-flex align-items-center ml-2">
+                        <div class="d-flex align-items-center">
                             <small>© 2020. All Rights Reserved.</small>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 d-flex justify-content-lg-end">
-                        <ul class="footer-info d-flex justify-content-lg-around">
-                            <li>Product</li>
-                            <li>Blog</li>
-                            <li>Contact</li>
+                    <div class="col-12 col-md-6 d-flex justify-content-lg-end justify-content-sm-center">
+                        <ul class="footer-info d-flex  ">
+                            <li class="ml-3">Product</li>
+                            <li class="ml-3">Blog</li>
+                            <li class="ml-3">Contact</li>
                         </ul>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 
