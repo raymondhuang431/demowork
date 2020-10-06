@@ -10682,10 +10682,6 @@ img {
     max-width: 100%
 }
 
-img {
-    max-width: 100%;
-}
-
 .nav-list {
     background-color: #916000;
 }
@@ -10697,7 +10693,7 @@ img {
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .footer-info {
